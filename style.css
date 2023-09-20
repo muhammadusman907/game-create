@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(public/animated-gifs-of-fighting-game-backgrounds-18.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    overflow-x: hidden;
+}
+.hulk-image{
+    position: relative;
+    top: 320px;
+    /* left :10%; */
+    /* border: solid 10px; */
+    height: 300px;
+    width: 350px;
+}
+.hulk-image img{
+    position: relative;
+    height: auto;
+    width: 350px;
+}
+.iron-man-image{
+    /* border: solid 5px; */
+     /* left: 60%; */
+    height: 300px;
+    width: 350px;
+    
+}
+.iron-man-image img{
+    /* border: solid 5px; */
+     position: relative;
+    display: block;
+    top: 320px;
+    
+    transform: scaleX(-1);
+    height: 300px;
+    width: 300px;
+}
+.left{
+    right: 200px;
+}
