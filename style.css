@@ -11,11 +11,8 @@ body{
     overflow-x: hidden;
 }
 .hulk-image{
-   
-    /* left :10%; */
-    /* border: solid 10px; */
     height: 300px;
-    width: 350px;
+    width: 300px;
 }
 .hulk-image img{
     position: absolute;
@@ -25,18 +22,16 @@ body{
     width: 350px;
 }
 .iron-man-image{
-    /* border: solid 5px; */
-     /* left: 60%; */
+    
     height: 300px;
     width: 350px;
     
 }
 .iron-man-image img{
     /* border: solid 5px; */
-     position:absolute;
-    display: block;
+    position:absolute;
     bottom: 20px;
-    right: 20px;
+    left: 1000px;
     transform: scaleX(-1);
     height: 300px;
     width: 300px;
